@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.intro img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+.content {
+    z-index: 1;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.content input[type=text] {
+    width: 95%;
+    height: 35px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-top: solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border: 1px solid #aaa;
+    box-shadow: inset 0px 2px 3px #dddddd;
+    -webkit-box-shadow: inset 0px 2px 3px #dddddd;
+    -moz-box-shadow: inset 0px 2px 3px #dddddd;
+    border-radius: 5px;
+
+}
+
+.content input[type=email] {
+    width: 95%;
+    height: 35px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-top: solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border: 1px solid #aaa;
+    box-shadow: inset 0px 2px 3px #dddddd;
+    -webkit-box-shadow: inset 0px 2px 3px #dddddd;
+    -moz-box-shadow: inset 0px 2px 3px #dddddd;
+    border-radius: 5px;
+
+}
+
+.content label{
+    float: left;
+    padding: 15px;
+    padding-bottom: 5px;
+    font-weight: 700;
+}
+
+/* .content input:hover{
+    border: 1px solid #b60e0e;
+} */
+
+.content input:focus {
+    border: 1px solid darkred;
+}
+
+
+
+
+.jklkl{
+    /* width: 150px;     ON IF LABEL GOT ERROR */
+
+    margin-top: 5px;
+}
+
+.content input[type=checkbox]{
+   width: 45px;
+   margin-left: 13px;
+   margin-top: 5px;
+}
+
+.mmnbm{
+    margin-top: 15px;
+}
+
+.btn{
+    background-color: #800001;
+    border: none;
+    padding: 10px 60px;
+    color: #fff;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    border-radius: 7px;
+}

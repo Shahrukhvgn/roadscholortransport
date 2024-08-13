@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div>
+        <div class="intro">
+            <div class="intro-img">
+                <img src="./assets/images/miles-ahead.png" alt="RST Image">
+            </div>
+            <form action="contact.php" method="post">
+                <div class="content">
+
+                    <label>FIRST NAME*</label>
+                    <input type="text" id="txtName" name="first_name" value="">
+                    <label>LAST NAME*</label>
+                    <input type="text" id="txtName2" name="last_name" value="">
+                    <label>EMAIL*</label>
+                    <input type="email" id="txtEmail" name="email" value="">
+                    <label>MOBILE NUMBER*</label>
+                    <input type="text" id="txtPhone" name="mobile" value="">
+
+                    <div class="mmnbm">
+                        <span style="color: red; font-weight: 700;">TERMINAL FOR WHICH YOU ARE INTERESTED IN APPLYING
+                            <br>(select only one)</span>
+                        <div class="jklkl" id="message">
+                            <div style="display: flex;">
+                                <input type="checkbox" id="html" name="tick" value="SHREWSBURY, MA">
+                                <label for="html">SHREWSBURY, MA</label>
+                            </div>
+
+                            <div style="display: flex;">
+                                <input type="checkbox" id="html" name="tick" value="EAST RUTHERFORD, NJ">
+                                <label for="html">EAST RUTHERFORD, NJ</label>
+                            </div>
+
+                            <div style="display: flex;">
+                                <input type="checkbox" id="html" name="tick" value="DUNMORE, PA">
+                                <label for="html">DUNMORE, PA</label>
+                            </div>
+
+                            <div style="display: flex;">
+                                <input type="checkbox" id="html" name="tick" value="PHILADELPHIA, PA">
+                                <label for="html">PHILADELPHIA, PA</label>
+                            </div>
+
+                            <div style="display: flex;">
+                                <input type="checkbox" id="html" name="tick" value="PHILADELPHIA, PA">
+                                <label for="html">PHILADELPHIA, PA</label>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" name="save" class="btn">SUBMIT</button>
+
+                    <!-- <button type="submit" class="btn">SUBMIT</button> -->
+                </div>
+            </form>
+            <footer style="width: 100%; background-color: #800001; margin: 0; color: #fff;">
+                <h3 style="letter-spacing: 1px;">© Copyright 2024 Road Scholar. All Rights Reserved</h3>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
